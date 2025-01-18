@@ -7,7 +7,8 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-blueviolet?logo=matplotlib&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-lightblue?logoColor=white)
 
-In this project, the focus was on time series forecasting of energy demand using Recurrent Neural Networks (RNNs), specifically Long Short-Term Memory networks (LSTMs). The project tackled two prediction challenges: a 3-hour horizon and a 6-hour horizon, and for each challenge, two types of predictors were developed - a 1-input predictor and a 2-input predictor.
+## Abstract
+The Energy Demand Forecasting with Recurrent Neural Networks project focuses on predicting hourly electricity load using Long Short-Term Memory (LSTM) networks. Leveraging the GEFCom2014 dataset, which includes hourly electricity load and temperature data, two forecasting challenges were addressed: 3-hour and 6-hour horizons. Models were developed with 1-input and 2-input predictors, achieving Test MAE scores of 0.225 and 0.237, respectively. Key tasks included dataset normalization, sequence length tuning, and performance evaluation using MAE and PMAE metrics. The project demonstrates the effectiveness of LSTMs for time series forecasting and highlights the importance of preprocessing and hyperparameter tuning in improving model accuracy.
 
 ## Dataset Overview
 
