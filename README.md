@@ -76,3 +76,5 @@ The dataset is available as a zip file that can be accessed and downloaded using
 * Concluded that the model performed better when predicting energy demand 6 hours into the future.
 
 In summary, the project successfully applied deep learning techniques to time series forecasting, providing insights into model performance and the impact of sequence length on predictions. Ongoing efforts are directed towards further reducing the Percentage Mean Absolute Error and enhancing overall model accuracy.
+
+### For detailed results and analyses of this project, please refer to [final_results_and_conclusions.pdf](final_results_and_conclusions.pdf)
