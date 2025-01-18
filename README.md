@@ -1,5 +1,29 @@
-# Energy-Demand-Forecasting-with-Recurrent-Neural-Networks
+# Energy Demand Forecasting with Recurrent Neural Networks
+![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-orange?logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-red?logo=keras&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-blue?logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-yellowgreen?logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-blueviolet?logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-lightblue?logoColor=white)
+
 In this project, the focus was on time series forecasting of energy demand using Recurrent Neural Networks (RNNs), specifically Long Short-Term Memory networks (LSTMs). The project tackled two prediction challenges: a 3-hour horizon and a 6-hour horizon, and for each challenge, two types of predictors were developed - a 1-input predictor and a 2-input predictor.
+
+## Dataset Overview
+
+The data in this project is taken from the GEFCom2014 forecasting competition. It consists of:
+
+- **Hourly Electricity Load (`eload`)**
+- **Hourly Temperature (`tempf`)**
+
+These values are provided for a USA city and are used for load forecasting tasks.
+
+## Retrieving the Dataset
+
+The dataset is available as a zip file that can be accessed and downloaded using the following link:
+
+[Download GEFCom2014 Dataset](https://www.dropbox.com/scl/fi/zwnlfwhds3k2xz0/GEFCom2014.zip?rlkey=oz7unehbwtglp1pbgbnb4wne2&e=1&dl=0)
+
 
 ## Key Tasks:
 
